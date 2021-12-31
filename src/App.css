@@ -1,0 +1,63 @@
+.App{
+    background-color: black;
+    width:100%;
+    flex-direction: column;
+    height:100%;
+    display: flex;
+    padding-bottom: 57%;
+}
+.Maincontent{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.Maincontent input{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 5px;
+    border: none;
+}
+.Maincontent button{
+    justify-content: center;
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    background-color: whitesmoke;
+}
+.Searcharea{
+    width:50%;
+    justify-self: center;
+    align-items: stretch;
+    flex-direction: row;
+    display: flex;
+}
+.Pokemoncard{
+    flex-direction: column;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    background-color: #fe2c54;
+    /* padding-bottom: 30%; */
+}
+.displayCard{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #fe2c54;
+    color: white;
+    font: bold;
+    /* padding-bottom: 80%; */
+}
+.displayCard img{
+    width: 400px;
+    height: 400px;
+    background-color: #fe2c54;
+}
+.maincontent{
+    flex-direction: row;
+}
